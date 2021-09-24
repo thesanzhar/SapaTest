@@ -1,0 +1,190 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="css/main.css">
+  <link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.min.css"/>  
+  <link rel="shortcut icon" href="img/icons/sapatest-logo-icon.ico" type="image/x-icon">
+  <script src="js/jquery-3.6.0.min.js"></script>
+  <title>SapaTest</title>
+</head>
+<body>
+  <header>
+    <div class="content">
+      <div class="header__burger">
+        <span></span>
+      </div>
+      <a href="index.html" class="header__logo">
+        <img src="img/icons/logo-sapatest.svg" alt="">
+      </a>
+      <nav class="header__menu">
+        <div class="header__lang2" id="header__lang2">
+          <a href="#" class="header__lang_items active_lang2">ru</a>
+          <a href="#" class="header__lang_items">kz</a>
+          <a href="#" class="header__lang_items">en</a>
+        </div>
+        <ul>
+          <li><a href="index.html">Главная</a></li>
+          <li><a href="#">О нас</a></li>
+          <li><a href="#">Программы</a></li>
+          <li><a href="#">Новости</a></li>
+          <li><a href="#">Контакты</a></li>
+        </ul>
+      </nav>
+      <div class="header__lang" id="header__lang">
+        <a href="#" class="header__lang_items active_lang">ru</a>
+        <a href="#" class="header__lang_items">kz</a>
+        <a href="#" class="header__lang_items">en</a>
+      </div>
+      <div class="header__search_user">
+        <a href="#" class="header__search">
+          <img src="img/icons/search-icon.svg" alt="">
+        </a>
+        <button onclick="window.location.href='profileTest.html'" class="header__user">
+          <img src="img/icons/user-icon.svg" alt="">
+        </button>
+      </div> 
+    </div>
+  </header>
+
+  <section class="resultTest">
+    <div class="content">
+      <div class="resultTest__header">
+        <a href="#" class="resultTest__header_links">Главная</a>
+        <img src="img/icons/swiper-arrow-right2.svg" alt="" class="resultTest__header_arrow">
+        <a href="#" class="resultTest__header_links">Программы</a>
+        <img src="img/icons/swiper-arrow-right2.svg" alt="" class="resultTest__header_arrow">
+        <a href="#" class="resultTest__header_links">Правоохранительная служба</a>
+        <img src="img/icons/swiper-arrow-right2.svg" alt="" class="resultTest__header_arrow">
+        <a href="#" class="resultTest__header_links resultTest__active">Конституция Ресбпублики Казахстан</a>
+      </div>
+      <div class="resultTest__content">
+        <h1 class="resultTest__title">
+          <span>Результаты теста</span> “Конституция Республики Казахстан”
+        </h1>
+        <div class="resultTest__main">
+          <img src="img/icons/medal-icon.svg" alt="" class="resultTest__main_icon">
+          <h3 class="resultTest__main_subtitle">Поздравляем, вы набрали</h3>
+          <h2 class="resultTest__main_title">50% правильных ответов</h2>
+          <h3 class="resultTest__main_subtitle">Желаем вам успехов!</h3>
+        </div>
+        <div class="resultTest__stat">
+          <div class="resultTest__stat_items">
+            <h4>Всего вопросов:</h4>
+            <p>100</p>
+          </div>
+          <div class="resultTest__stat_items">
+            <h4>Правильных ответов:</h4>
+            <p><span class="text-color-green">50</span> <span class="text-weight-regular">(50%)</span></p>
+          </div>
+          <div class="resultTest__stat_items">
+            <h4>Не правильных ответов:</h4>
+            <p><span class="text-color-red">50</span> <span class="text-weight-regular">(50%)</span></p>
+          </div>
+        </div>
+        <div class="resultTest__answer">
+          <div class="resultTest__answer_items">
+            <h4 class="resultTest__answer_numbers">1.</h4>
+            <div class="resultTest__answer_texts">
+              <h4 class="resultTest__answer_text">
+                Ученый, который первым собрал, дополнил и обосновал доказательства шарообразности Земли:
+              </h4>
+              <div class="resultTest__answer_question">
+                <img src="img/icons/done.svg" alt="" class="resultTest__answer_icon">
+                <p>Ваш ответ: <span class="resultTest__done">Эратосфен</span></p>
+                <p>Правильный: <span class="resultTest__done_answer">Эратосфен</span></p>
+              </div>
+            </div>
+          </div>
+          <div class="resultTest__answer_items">
+            <h4 class="resultTest__answer_numbers">2.</h4>
+            <div class="resultTest__answer_texts">
+              <h4 class="resultTest__answer_text">
+                Ученый, который первым собрал, дополнил и обосновал доказательства шарообразности Земли:
+              </h4>
+              <div class="resultTest__answer_question">
+                <img src="img/icons/error.svg" alt="" class="resultTest__answer_icon">
+                <p>Ваш ответ: <span class="resultTest__error">Кашгари</span></p>
+                <p>Правильный: <span class="resultTest__done_answer">Эратосфен</span></p>
+              </div>
+            </div>
+          </div>
+          <div class="resultTest__answer_items">
+            <h4 class="resultTest__answer_numbers">1.</h4>
+            <div class="resultTest__answer_texts">
+              <h4 class="resultTest__answer_text">
+                Ученый, который первым собрал, дополнил и обосновал доказательства шарообразности Земли:
+              </h4>
+              <div class="resultTest__answer_question">
+                <img src="img/icons/done.svg" alt="" class="resultTest__answer_icon">
+                <p>Ваш ответ: <span class="resultTest__done">Эратосфен</span></p>
+                <p>Правильный: <span class="resultTest__done_answer">Эратосфен</span></p>
+              </div>
+            </div>
+          </div>
+          <div class="resultTest__answer_items">
+            <h4 class="resultTest__answer_numbers">2.</h4>
+            <div class="resultTest__answer_texts">
+              <h4 class="resultTest__answer_text">
+                Ученый, который первым собрал, дополнил и обосновал доказательства шарообразности Земли:
+              </h4>
+              <div class="resultTest__answer_question">
+                <img src="img/icons/error.svg" alt="" class="resultTest__answer_icon">
+                <p>Ваш ответ: <span class="resultTest__error">Кашгари</span></p>
+                <p>Правильный: <span class="resultTest__done_answer">Эратосфен</span></p>
+              </div>
+            </div>
+          </div>
+          <div class="resultTest__answer_items">
+            <h4 class="resultTest__answer_numbers">1.</h4>
+            <div class="resultTest__answer_texts">
+              <h4 class="resultTest__answer_text">
+                Ученый, который первым собрал, дополнил и обосновал доказательства шарообразности Земли:
+              </h4>
+              <div class="resultTest__answer_question">
+                <img src="img/icons/done.svg" alt="" class="resultTest__answer_icon">
+                <p>Ваш ответ: <span class="resultTest__done">Эратосфен</span></p>
+                <p>Правильный: <span class="resultTest__done_answer">Эратосфен</span></p>
+              </div>
+            </div>
+          </div>
+          <div class="resultTest__answer_items">
+            <h4 class="resultTest__answer_numbers">2.</h4>
+            <div class="resultTest__answer_texts">
+              <h4 class="resultTest__answer_text">
+                Ученый, который первым собрал, дополнил и обосновал доказательства шарообразности Земли:
+              </h4>
+              <div class="resultTest__answer_question">
+                <img src="img/icons/error.svg" alt="" class="resultTest__answer_icon">
+                <p>Ваш ответ: <span class="resultTest__error">Кашгари</span></p>
+                <p>Правильный: <span class="resultTest__done_answer">Эратосфен</span></p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <footer>
+    <div class="content">
+      <a href="index.html" class="footer__logo">
+        <img src="img/icons/logo-sapatest-gray.svg" alt="">
+      </a>
+      <div class="footer__allrights">
+        <p>
+          Все права на материалы, размещенные на этом сайте, принадлежат администрации сайта. <br>
+          © 2020 SAPAtest
+        </p>
+      </div>
+      <div class="footer__developer">
+        <img src="img/icons/logo-developer.svg" alt="">
+      </div>
+    </div>
+  </footer>
+  <script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
+  <script src="js/main.js"></script>
+</body>
+</html>

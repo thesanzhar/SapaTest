@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="css/main.css">
+  <link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.min.css"/>  
+  <link rel="shortcut icon" href="img/icons/sapatest-logo-icon.ico" type="image/x-icon">
+  <script src="js/jquery-3.6.0.min.js"></script>
+  <title>SapaTest</title>
+</head>
+<body>
+  <header>
+    <div class="content">
+      <div class="header__burger">
+        <span></span>
+      </div>
+      <a href="index.html" class="header__logo">
+        <img src="img/icons/logo-sapatest.svg" alt="">
+      </a>
+      <nav class="header__menu">
+        <div class="header__lang2" id="header__lang2">
+          <a href="#" class="header__lang_items active_lang2">ru</a>
+          <a href="#" class="header__lang_items">kz</a>
+          <a href="#" class="header__lang_items">en</a>
+        </div>
+        <ul>
+          <li><a href="index.html">Главная</a></li>
+          <li><a href="#">О нас</a></li>
+          <li><a href="#">Программы</a></li>
+          <li><a href="#">Новости</a></li>
+          <li><a href="#">Контакты</a></li>
+        </ul>
+      </nav>
+      <div class="header__lang" id="header__lang">
+        <a href="#" class="header__lang_items active_lang">ru</a>
+        <a href="#" class="header__lang_items">kz</a>
+        <a href="#" class="header__lang_items">en</a>
+      </div>
+      <div class="header__search_user">
+        <a href="#" class="header__search">
+          <img src="img/icons/search-icon.svg" alt="">
+        </a>
+        <button onclick="window.location.href='profileTest.html'" class="header__user">
+          <img src="img/icons/user-icon.svg" alt="">
+        </button>
+      </div> 
+    </div>
+  </header>
+
+  <section class="profileTest">
+    <div class="content">
+      <div class="profileTest__profile">
+        <div class="profileTest__profile_info">
+          <a href="#"><img src="img/icons/profile-ava.jpg" alt=""></a>
+          <div class="profileTest__profile_name_edit">
+            <p><a href="#" class="profileTest__profile_name">Имя Фамилия</a></p>
+            <p><a href="profileEdit.html" class="profileTest__profile_edit">изменить аккаунт</a></p>
+          </div>
+        </div>
+        <div class="profileTest__profile_items" id="profileTest__profile_items">
+          <a href="#" class="profileTest__profile_fields">
+            <h3 class="profileTest__profile_fields_text">
+              Купленные тесты
+            </h3>
+            <img src="img/icons/right-arrow-gray.svg" alt="" class="profileTest__profile_purchased_icon">
+          </a>
+          <a href="#" class="profileTest__profile_fields active_profile_item">
+            <h3 class="profileTest__profile_fields_text">
+              Пройденные тесты
+            </h3>
+            <img src="img/icons/right-arrow-gray.svg" alt="" class="profileTest__profile_passed_icon">
+          </a>
+        </div>
+        <a href="#" class="profileTest__profile_exit">
+          <h3 class="profileTest__profile_exit_text exit_profile_text">
+            Выйти
+          </h3>
+        </a>
+      </div>
+      <div class="profileEdit__content">
+        <h1 class="profileEdit__title">
+          Редактировать аккаунт
+        </h1>
+        <div class="profileEdit__contacts">
+          <a href="#" class="profileEdit__contacts_img">
+            <img src="img/icons/profile-ava2.jpg" alt="">
+            <p>Изменить фото</p>
+          </a>
+          <div class="profileEdit__contacts_data_security">
+            <div class="profileEdit__contacts_data">
+              <h2 class="profileEdit__contacts_data_title">Контактные данные</h2>
+              <input type="text" name="" id="" placeholder="Имя" required>
+              <input type="text" name="" id="" placeholder="Фамилия" required>
+              <input type="tel" name="" id="" placeholder="Номер телефона" required>
+            </div>
+            <div class="profileEdit__contacts_security">
+              <h2 class="profileEdit__contacts_security_title">Безопасность</h2>
+              <input type="password" name="" id="" placeholder="Новый пароль" required>
+              <input type="password" name="" id="" placeholder="Старый пароль" required>
+              <button class="profileEdit__contacts_save">Сохранить</button>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <footer>
+    <div class="content">
+      <a href="index.html" class="footer__logo">
+        <img src="img/icons/logo-sapatest-gray.svg" alt="">
+      </a>
+      <div class="footer__allrights">
+        <p>
+          Все права на материалы, размещенные на этом сайте, принадлежат администрации сайта. <br>
+          © 2020 SAPAtest
+        </p>
+      </div>
+      <div class="footer__developer">
+        <img src="img/icons/logo-developer.svg" alt="">
+      </div>
+    </div>
+  </footer>
+  <script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
+  <script src="js/main.js"></script>
+</body>
+</html>
